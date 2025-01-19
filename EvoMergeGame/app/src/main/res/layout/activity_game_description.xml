@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#2C3E50">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Описание игры"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Добро пожаловать в EvoMerge! Это игра о соединении объектов, эволюции и создании новых форм. Перемещайте и объединяйте тайлы, чтобы открывать новые уровни!\n     Эта игра на тему эволюции представляет собой упрощенную и условную модель, созданную для развлекательных целей. Игра не претендует на научную точность или глубокое исследование процессов эволюции."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
